@@ -94,17 +94,29 @@ console.log('So, my wife says I need to cut back. My new fav food list includes:
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
-
+favFoods[1] = 'Gyros';
+console.log('Ribs are getting expensive so I replaced them on my list with', favFoods[1]);
+console.log('My new favorite food list include:', favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
 
+favFoods.sort();
+favFoods.reverse();
+console.log('My favorite foods in reverse alphabetical order are:', favFoods);
+
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+
+let newList = favFoods.join(' and ');
+console.log(newList);
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+let bestList = favFoods.concat(animalArray);
+console.log('The best list includes:', bestList);

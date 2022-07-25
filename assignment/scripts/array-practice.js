@@ -1,7 +1,7 @@
 console.log('****** Array Practice *******');
 
 // 1. Creating arrays
-console.log('--- 1. Practice creating arrays ---');
+console.log('\n--- 1. Practice creating arrays ---');
 
 // Example: Array of animals
 let animalArray = ['fish', 'cat', 'bird', 'dog'];
@@ -9,14 +9,15 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 
+let favFoods = ['Curry', 'Ribs', 'Chicken Wings', 'French Fries', 'Burgers'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-
+console.log('My favorite foods include:', favFoods);
 
 // 2. Array.length - tells you how many items are in the array
-console.log('--- 2. Length of an array ---');
+console.log('\n--- 2. Length of an array ---');
 
 // Example: How many animals are in the array? 
 console.log('Number of animals:', animalArray.length);
@@ -25,7 +26,7 @@ console.log('Number of animals:', animalArray.length);
 
 
 // 3. Accessing array items
-console.log('--- 3. Accessing items in an array ---');
+console.log('\n--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
 console.log('First animal is', animalArray[0])
@@ -42,7 +43,7 @@ console.log('First animal is', animalArray[0])
 
 
 // 4. Adding & Removing Array Items
-console.log('--- 4. Adding and removing array items ---');
+console.log('\n--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end using Array.push
 animalArray.push('penguin');
